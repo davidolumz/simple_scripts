@@ -3,7 +3,7 @@
 #BY: David
 #Date: 8/17/2022
 
-if [ ${USER} != root ]
+if [ ${USER} = root ]
 then 
 	echo " Sorry you need root access to run this"
 	else  
